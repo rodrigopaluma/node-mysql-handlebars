@@ -1,0 +1,25 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "Base inicial para sites/sistemas NodeJS + Mysql com Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "handlebars"
+  ],
+  "author": "Rodrigo Paluma <rodrigo.paluma@gmail.com> (https://www.linkedin.com/in/rodrigopaluma/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
